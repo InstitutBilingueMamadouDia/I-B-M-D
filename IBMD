@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institut Bilingue Mamadou Dia (IBMD)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #333;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1em;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            display: block;
+        }
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 2em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Institut Bilingue Mamadou Dia (IBMD)</h1>
+        <p>Aider les élèves à réussir gratuitement</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Bienvenue à l'IBMD</h2>
+            <p>L'Institut Bilingue Mamadou Dia (IBMD) est dédié à aider les élèves à réussir grâce à des ressources éducatives gratuites et un soutien personnalisé.</p>
+        </section>
+        <section id="about">
+            <h2>À propos de nous</h2>
+            <p>Fondé avec la vision de démocratiser l'éducation, l'IBMD offre un environnement d'apprentissage bilingue qui permet aux élèves de développer des compétences linguistiques tout en excelling dans leurs études scientifiques. Nous croyons que chaque élève mérite une chance égale de réussir, et nous nous engageons à fournir les outils et le soutien nécessaires pour y parvenir.</p>
+        </section>
+        <section id="services">
+            <h2>Nos Services</h2>
+            <ul>
+                <li>Cours en ligne gratuits</li>
+                <li>Soutien scolaire personnalisé</li>
+                <li>Ressources pédagogiques</li>
+                <li>Sessions de révision</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <p>Email : <a href="mailto:institutbilinguemamadoudia@gmail.com">institutbilinguemamadoudia@gmail.com</a></p>
+            <p>Téléphone : <a href="tel:+221781406860">+221 781 406 860</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Institut Bilingue Mamadou Dia. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
